@@ -1,7 +1,6 @@
 from django.shortcuts import render
 
 from django.http import JsonResponse
-import requests
 
 import os
 from dotenv import load_dotenv

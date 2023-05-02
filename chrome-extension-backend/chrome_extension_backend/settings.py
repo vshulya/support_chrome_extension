@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+# change on your chrome extension id
 CORS_ALLOWED_ORIGINS = [
     "chrome-extension://lonmebcifgongebnakbeaajcjnffjnen",
 ]
