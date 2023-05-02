@@ -5,15 +5,23 @@ This Chrome extension uses GPT-4 to read and answer support emails in Gmail, uti
 ## Prerequisites
 
 - Google Chrome Browser
-- A running instance of the Django backend API clone https://github.com/vshulya/support_guy_backend.git
+- A running instance of the Django backend API
 
-## Setup for backend
+## Setup
 
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/vshulya/support_chrome_extension.git
 ```
+
+## Setup for backend
+
+1. Navigating to the Backend folder
+```bash
+cd chrome-extension-backend
+```
+
 2. Install the required Python packages
 
 ```bash
@@ -30,16 +38,21 @@ The backend API is now running and ready to receive requests from the Chrome ext
 
 ## Setup for chrome extension
 
-1. Clone this repository to your local machine.
+1. Navigating to the Chrome extension folder
+
 ```bash
-git clone https://github.com/vshulya/support_guy.git
+cd ..
+```
+
+```bash
+cd .\support_guy\
 ```
 
 2. Open Google Chrome, and navigate to `chrome://extensions`.
 
 3. Enable "Developer mode" by toggling the switch in the top right corner.
 
-4. Click the "Load unpacked" button and select the directory you cloned in step 1.
+4. Click the "Load unpacked" button and select the directory Support_guy.
 
 5. The Gmail Auto-Responder extension should now be visible in your list of Chrome extensions.
 
