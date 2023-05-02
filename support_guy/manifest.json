@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Gmail Support Assistant",
+  "version": "1.0",
+  "description": "Read and answer support emails in Gmail using GPT-4.",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "./images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://mail.google.com/*"
+      ],
+      "js": [
+        "jquery.js",
+        "gmail.js",
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "16": "./images/icon16.png",
+    "48": "./images/icon48.png",
+    "128": "./images/icon128.png"
+  }
+}

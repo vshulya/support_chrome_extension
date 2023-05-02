@@ -1,0 +1,36 @@
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+.DS_STORE
+
+.env
+
+# Node.js dependencies
+/node_modules/
+
+# Configuration file with API key
+config.js
+
+# Debug logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
